@@ -33,11 +33,11 @@
     transition: color 300ms;
 
     &.is-active {
-      color: #00acdc;
+      color: $color-accent;
     }
 
     &:hover {
-      color: #00acdc;
+      color: $color-accent;
     }
 
     &.is-active::after {
