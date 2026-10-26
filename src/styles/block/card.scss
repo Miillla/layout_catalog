@@ -1,11 +1,13 @@
 .card {
   position: relative;
+
   box-sizing: border-box;
   width: $card-width;
   height: $card-height;
   padding: 32px 16px 16px;
   border: 1px solid $color-border;
   border-radius: $card-radius;
+
   background-color: $color-white;
 
   transition: transform 300ms;
@@ -26,10 +28,12 @@
 
   &__title {
     margin: 0 0 4px;
+
     font-size: $font-size-title;
     font-weight: 500;
     line-height: $line-height-title;
     color: $color-text-primary;
+
     transition: color 300ms;
   }
 
@@ -73,15 +77,17 @@
   }
 
   &__button {
+    cursor: pointer;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     box-sizing: border-box;
     width: 100%;
     height: $button-height;
     border: 1px solid $color-accent;
     border-radius: $card-radius;
-    cursor: pointer;
 
     font-size: $font-size-button;
     font-weight: 700;
@@ -91,6 +97,7 @@
     text-transform: uppercase;
 
     background-color: $color-accent;
+
     transition:
       color 300ms,
       background-color 300ms;
